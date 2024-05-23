@@ -1,0 +1,246 @@
+/*
+Theme Name: Market with slider
+Description: My website for buy 
+Author: Malak Khateeb
+Tags: Business,...
+*/
+body {
+    background-color: #eeeeee;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #121212;
+    color: white;
+    border-top: 10px solid #9900ff;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-me {
+    display: flex;
+    align-items: center;
+
+}
+
+p {
+    font: bold 30px cursive;
+}
+
+span {
+    color: #9900ff;
+}
+
+.cart-num {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.cart,
+.search {
+    width: 30px;
+}
+
+.search,
+select {
+    margin: 0px 10px 0px 10px;
+}
+
+.sec-par {
+    font: normal 15px cursive;
+    margin: 10px 0px 10px 0px;
+}
+
+/* -------------------sliding pic----------------------------------- */
+
+/* ------options pics--------- */
+.slides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-one {
+    width: 250px;
+    height: 170px;
+    border: none;
+}
+
+.choose-pic {
+    background-color: #ffffff;
+    width: 250px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+}
+
+.first-btn,
+.sec-btn {
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+}
+
+.first-option>p {
+    font: normal 20px cursive;
+    margin-left: 15px;
+
+}
+
+.nums>p {
+    font: bold 15px cursive
+}
+
+.par {
+    text-decoration: line-through;
+    color: #868383;
+    font-size: 10px;
+}
+
+.first-btn {
+    background-color: #9900ff;
+}
+
+.sec-btn {
+    background-color: #6aa84f;
+}
+
+.pics {
+    margin-left: 14px;
+}
+
+/* ---------------------------------- */
+.arrow {
+    transform: rotate(180deg);
+
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Container format */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide images in the default state */
+.mySlides {
+    display: none;
+}
+
+/* Previous and next button formats */
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    margin-right: -200px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    margin-left: -200px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Format next button position */
+.next {
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+}
+
+/* On the hover navigation buttons, the formats for */
+.prev:hover, .next:hover {
+    background-color: rgba(230, 210, 210, 0.8);
+}
+
+/* Formatting the text in slides */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Format the numbers in the slides */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Format the lines in the middle of the slider */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 50px;
+    margin: 0 3px 10px;
+    background-color: #9900ff;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Slider animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.points {
+    text-align: center
+}
